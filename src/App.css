@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: maroon;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box{
+  width: 50%;
+  min-height: 80vh;
+  height: auto;
+  background-color: white;
+  box-shadow: 5px 5px 25px -5px black;
+  border-radius: 15px;
+  margin: 50px;
+}
+
+h1{
+  color:maroon;
+  background: transparent;
+  background-color: silver;
+  padding: 6px 0 5px 0;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 15px -5px black;
+}
+
+input{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid silver;
+}
+
+button{
+  height: 40px;
+  width: 90px;
+  border-radius: 5%;
+  border-color: transparent;
+  background-color: maroon;
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-left:10px;
+  box-shadow: 5px 5px 15px -5px black;
+  transition: .2s;
+}
+
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+ol {
+  margin-top: 30px;
+  list-style-type: decimal;
+}
+
+
+@media (max-width:768px){
+  .box{
+    width: 90vw;
+    margin: 10px;
+  }
+}
+
+
+
+
+
+
+
+

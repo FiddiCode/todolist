@@ -1,0 +1,22 @@
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+
+.list li {
+    width: 17rem;
+    height: 30px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    color: maroon;
+    margin: 10px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+  
